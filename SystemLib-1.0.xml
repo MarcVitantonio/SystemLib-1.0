@@ -1,0 +1,40 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <!-- Load LibGetFrame-1.0, Dependencies -->
+    <Include file="Libraries\LibGetFrame-1.0\LibGetFrame-1.0.xml"/>
+
+    <!-- Initialize -->
+    <Script file="Initialize.lua"/>
+
+    <!-- Helpers -->
+    <Script file="Helpers\Constants.lua"/>
+    <Script file="Helpers\UtilityFunctions.lua"/>
+    <Script file="Helpers\Timers.lua"/>
+    <Script file="Helpers\EventCallbackHandlers.lua"/>
+    <Script file="Helpers\CoroutineQueues.lua"/>
+
+    <!-- Unit Systems -->
+    <Script file="UnitSystems\UnitFunctions.lua"/>
+    <Script file="UnitSystems\UnitDataHandlers.lua"/>
+    <Script file="UnitSystems\UnitEventCallbackHandlers.lua"/>
+    <Script file="UnitSystems\UnitSystemManagers.lua"/>
+
+    <!-- Unit System Manager Initializers -->
+    <Script file="UnitSystems\UnitSystemManagerInitializers\ArenaSystemManagerInitializer.lua"/>
+    <Script file="UnitSystems\UnitSystemManagerInitializers\NameplateSystemManagerInitializer.lua"/>
+    <Script file="UnitSystems\UnitSystemManagerInitializers\PartySystemManagerInitializer.lua"/>
+    <Script file="UnitSystems\UnitSystemManagerInitializers\RaidSystemManagerInitializer.lua"/>
+    <Script file="UnitSystems\UnitSystemManagerInitializers\TargetNameplateSystemManagerInitializer.lua"/>
+    
+    <!-- Unit System Initialization -->
+    <Script file="UnitSystems\InitializeUnitSystems.lua"/>
+
+    <!-- Unit Characteristics -->
+    <Script file="UnitCharacteristics\UnitSpecializations.lua"/>
+
+    <!-- Unit Characteristics Initialization -->
+    <Script file="UnitCharacteristics\InitializeUnitCharacteristics.lua"/>
+
+    <!-- SystemLib -->
+    <Script file="SystemLib-1.0.lua"/>
+</Ui>

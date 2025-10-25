@@ -1,0 +1,11 @@
+## Interface: 110205
+## Version: 1.0.0
+## Title: SystemLib-1.0
+## Notes: Simplified WoW event callback systems
+## Author: Rekoes
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## X-Category: Library
+## X-License: MIT
+
+SystemLib-1.0.xml

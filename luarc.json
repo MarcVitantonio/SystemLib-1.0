@@ -1,0 +1,18 @@
+{
+  "runtime.version": "Lua 5.1",
+  "diagnostics.globals": [
+    "CreateFrame",
+    "wipe",
+    "LibStub",
+    "SystemLib_SavedVariables",
+    "SecureButton_GetUnit",
+    "NAME", "Event", "RAID", "ARENA", "PLAYER", "TARGET", "FOCUS", "PARTY", "UPDATE",
+    "tinsert", "tremove", "tsort", "pairs", "ipairs", "next", "type", "select", "unpack", "print", "error",
+    "GetTime", "GetNumGroupMembers", "IsInGroup", "IsInRaid", "UnitExists", "UnitIsDeadOrGhost", "UnitIsConnected",
+    "UnitIsPlayer", "UnitClass", "UnitReaction", "UnitHealth", "UnitHealthMax", "UnitPower", "UnitPowerMax", "UnitPowerType",
+    "UnitName", "UnitGUID", "GetSpellInfo", "GetSpellLink"
+  ],
+  "workspace.ignoreDir": [
+    "Libraries/LibGetFrame-1.0"
+  ]
+}
